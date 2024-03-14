@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ex_model.apps.ExModelConfig', # 앱 등록 한후 makemigrations명령어 입력해서 db에 이주될 수 있게 해야함
 ]
 
 MIDDLEWARE = [
